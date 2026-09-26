@@ -1,0 +1,66 @@
+// ─── Fixtures & results ────────────────────────────────
+// Edit freely. status: 'played' shows score, 'scheduled' shows date/venue.
+// 4 La Liga + 1 Champions League + 1 Copa del Rey.
+
+export const MATCHES = [
+  {
+    id: 'm1',
+    competition: 'La Liga',
+    opponent: 'Real Madrid',
+    date: '26 Oct 2025 · 21:00',
+    home: true,
+    status: 'played',
+    score: '2 – 1',
+    note: 'El Clásico · Estadi Olímpic',
+  },
+  {
+    id: 'm2',
+    competition: 'La Liga',
+    opponent: 'Atlético de Madrid',
+    date: '02 Nov 2025 · 18:30',
+    home: false,
+    status: 'played',
+    score: '1 – 3',
+    note: 'Cívitas Metropolitano',
+  },
+  {
+    id: 'm3',
+    competition: 'Champions League',
+    opponent: 'Bayern München',
+    date: '05 Nov 2025 · 21:00',
+    home: true,
+    status: 'played',
+    score: '3 – 2',
+    note: 'League phase · Estadi Olímpic',
+  },
+  {
+    id: 'm4',
+    competition: 'La Liga',
+    opponent: 'Girona',
+    date: '09 Nov 2025 · 16:15',
+    home: true,
+    status: 'scheduled',
+    score: null,
+    note: 'Derbi català · Estadi Olímpic',
+  },
+  {
+    id: 'm5',
+    competition: 'Copa del Rey',
+    opponent: 'Real Betis',
+    date: '03 Dec 2025 · 21:00',
+    home: false,
+    status: 'scheduled',
+    score: null,
+    note: 'Round of 32 · Benito Villamarín',
+  },
+  {
+    id: 'm6',
+    competition: 'La Liga',
+    opponent: 'Villarreal',
+    date: '07 Dec 2025 · 18:30',
+    home: false,
+    status: 'scheduled',
+    score: null,
+    note: 'Estadio de la Cerámica',
+  },
+];

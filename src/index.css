@@ -1,0 +1,20 @@
+/* Minimal reset. All visual design lives in App.css (single stylesheet). */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #0b0712;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
