@@ -19,7 +19,7 @@ export default function MemberCard() {
         </ul>
       </div>
 
-      <div className="member-card" role="img" aria-label="Barça Hub member card for Alex Ferrer, member number 00189, season 25/26">
+      <div className="member-card" role="img" aria-label="Barça Hub member card for Lionel Andrés Messi, member number 00189, season 25/26">
         <div className="member-card-top">
           <span className="member-eyebrow">BARÇA HUB MEMBER</span>
           <span className="member-season">25/26</span>
@@ -28,11 +28,11 @@ export default function MemberCard() {
           <SafeImage
             src="/images/members/member-avatar.jpg"
             alt="Member avatar placeholder"
-            name="Alex Ferrer"
+            name="Lionel Andrés Messi"
             className="member-avatar"
           />
           <div>
-            <p className="member-name">ALEX FERRER</p>
+            <p className="member-name">LIONEL ANDRÉS MESSI</p>
             <p className="member-no">Nº 00189 · GRADA NORD</p>
           </div>
           <span className="member-crest" aria-hidden="true">BH</span>
